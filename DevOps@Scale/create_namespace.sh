@@ -1,8 +1,8 @@
 #CONTEXT=minikube
 #USER=minikube
 
-CONTEXT=cfc
-USER=user
+CONTEXT=master.cfc-context
+USER=master.cfc-user
 NAMESPACE=netapp
 
 kubectl create namespace $NAMESPACE

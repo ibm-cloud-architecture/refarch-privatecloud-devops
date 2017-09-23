@@ -1,0 +1,9 @@
+1. Install Git plugin
+2. Exnable executor note
+3. Install Ant plugin
+4. Configure Ant environment (Global Tool configuration)
+
+Persistent Volume
+server 169.60.129.132
+path /icp_nfs1
+
