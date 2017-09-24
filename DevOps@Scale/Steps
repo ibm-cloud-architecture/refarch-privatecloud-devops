@@ -1,9 +1,14 @@
-1. Install Git plugin
-2. Exnable executor note
-3. Install Ant plugin
-4. Configure Ant environment (Global Tool configuration)
+1. Upgrade Jenkins
+3. Enable executor note
+4. Install Ant plugin
+5. Configure Ant environment (Global Tool configuration)
 
 Persistent Volume
-server 169.60.129.132
-path /icp_nfs1
+server 169.48.123.132
+nfs01 path /icp_nfs01
+nfs01-clone path /icp_nfs01_clone
+nfs02 path /icp_nfs02
+
+Git project: https://github.com/apache/tomcat.git
+Branch: */trunk
 
