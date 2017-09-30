@@ -110,9 +110,15 @@ Persistence:
   ##   GKE, AWS & OpenStack)
   ##
   # StorageClass: "-"
+  StorageClass: "standard"
+  storageClass: "standard"
+  StorageClassName: "standard"
+  storageClassName: "standard"
+
+
 
   AccessMode: ReadWriteOnce
-  Size: 8Gi
+  Size: 5Gi
   volumes:
 #  - name: nothing
 #    emptyDir: {}

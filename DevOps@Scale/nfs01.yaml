@@ -1,0 +1,14 @@
+  apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    name: nfs01
+  spec:
+    capacity:
+      storage: 5Gi
+    accessModes:
+      - ReadWriteOnce
+    persistentVolumeReclaimPolicy: Retain
+    storageClassName: standard
+    nfs:
+      path: /icp_nfs01
+      server: 169.48.123.132
